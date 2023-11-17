@@ -1,0 +1,176 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{ font-family: sans-serif; 
+	background-color: black;
+}
+
+div{ box-sizing: border-box; }
+
+.selamatdatang{
+	font-size: 50px;
+	width: 1349px;
+	height: 100px;
+	border: 2px solid black;
+	background-color: grey;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.navbar{
+	height: 50PX;
+	width: 1349px;
+	background-color: #0c1b1f;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-bottom: 100px;
+}
+
+.nav-menu{
+	width: 100%;
+	align-items: center;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.nav-menu li a {
+	font-size: 18px;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-menu li a:hover {
+	font-size: 20px;
+	color: white;text-decoration: underline;
+	transition: 0.3s;
+}
+
+
+
+
+
+.pembuka{
+	display: flex;
+}
+.latarbelakang{
+	width: 1310px;
+	height: 630px;
+}
+.gambarpembuka{
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.tekspembuka{
+	position: relative;
+	text-align: right;
+}
+.tekspembuka p{
+	font-family: sans-serif;
+	position: absolute;
+	top: 0%;
+	left: 25%;
+	right: 10%;
+	transform: translate(0%, 0%);
+	color: white;
+	display: flex;
+	font-size: 100px;
+}
+
+
+
+.gambarmenu{
+	margin-top: 15px;
+	margin-left: 15px;
+	position: relative;
+}
+.gambar-container {
+    position: relative;
+}
+.gambarmenu{
+	width: 1298px;
+	height: 630px;
+}
+.gambar-2, .gambar-3, .gambar-4 {
+	justify-content: space-between;
+    position: absolute;
+    margin-left: 60px;
+    top: 50%;
+    width: 400px;
+    height: 300px; 
+    padding-top: 300px;
+}
+.gambar-2 {
+    left: 5%;
+    transform: translate(-15%, -115%);
+}
+.gambar-3 {
+    left: 52%;
+    transform: translate(-70%, -115%);
+}
+.gambar-4 {
+    right: 0;
+    transform: translate(8%, -115%);
+}
+.teksmenu{
+	position: relative;
+}
+.teksmenu p{
+	font-family: sans-serif;
+	position: absolute;
+	top: 5%;
+	left: 550px;
+	color: white;
+	display: flex;
+	font-size: 60px;
+}
+.menubabiguling{
+	margin-left: 50px;
+	display: flex;
+	margin-top: 50px;
+	justify-content: space-around;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	padding-bottom: 20px;
+
+}
+.menubabiguling .menumakan{
+	width: 20%;
+}
+.menuteks{
+	display: flex;
+	justify-content: space-around;
+}
+.menuteks h2{
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	line-height: 1.2;
+	width: 30%;
+}
+
+
+
+.address{
+	position: relative;
+	left: 550px;
+	color: black;
+	margin-top: 200px;
+	margin-bottom: 20px;
+	background-color: white;
+	width: 11.8%;
+}
+.address1{
+	margin-top: 0px;
+	margin-left: 45px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+
+}
